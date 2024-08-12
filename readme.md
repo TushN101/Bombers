@@ -3,7 +3,7 @@
 
 ### **What Are Bombers?**
 
-Bombers are denial-of-service (DoS) attack tools designed to overwhelm a target service with excessive requests, messages, or other types of data. Their goal is to disrupt normal operations, potentially causing crashes or unresponsiveness. Bombers are often used maliciously to target online services, websites, or email servers.
+Bombers are tools designed to flood a target service with an excessive volume of requests, messages, or data, aiming to exhaust its resources. This overload can disrupt the service’s normal operations, leading to potential crashes, unresponsiveness, or degradation of performance. Typically, bombers are used in malicious activities to disrupt online services, websites, or communication channels like email.
 
 
 ### **Different Types of Bombers**
@@ -28,7 +28,7 @@ Bombers are denial-of-service (DoS) attack tools designed to overwhelm a target 
 - **Installation**: 
   - Requires active internet connection.
   - Use Python 3.x for compatibility.
-- **Usage**: Run `python bomber.py --help` for instructions.
+- **Usage**: Run `python bomber.py`.
 - **Prevention**:
   - Use rate limiting on SMS APIs.
   - Implement verification and CAPTCHA mechanisms.
@@ -60,7 +60,6 @@ Bombers are denial-of-service (DoS) attack tools designed to overwhelm a target 
   - Supports custom API configurations.
   - Faster and lighter than many SMS bomber apps.
 - **Installation**:
-  - Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
   - Install dependencies: `brew install git python3`, `sudo easy_install pip`, `sudo pip install --upgrade pip`
   - Clone repository: `git clone https://github.com/REBLOX01/AnotherSMSBomber.git`
   - Navigate to directory: `cd YetAnotherSMSBomber`
